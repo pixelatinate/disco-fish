@@ -21,9 +21,19 @@ python3 -m http.server 8000
 
 Then open <http://localhost:8000>.
 
+## Along the way
+
+The final project builds on these earlier COSC 452 assignments, which are also in this repo:
+
+- **Lab 1, Basic WebGL2:** `lab1/step0` to `lab1/step3`
+- **Lab 2, Shading and Basic GLSL:** `lab2/step0` to `lab2/step4`
+- **Midterm:** `midterm/` and `midterm/step1`
+- **Lab 3, Texture Mapping in GLSL:** `lab3/step1` to `lab3/step4`
+
 ## Layout
 
 - `final/`: the project itself (`index.html` and `js/main.js`).
+- `lab1/`, `lab2/`, `lab3/`, `midterm/`: the smaller assignments leading up to it, one folder per step. Each is a runnable page at `<folder>/` (for example `/lab3/step4/`).
 - `shared/js/`: helper libraries for loading shaders, OBJ files and vertex data, from the course (used with my instructors' permission), plus [gl-matrix](https://github.com/toji/gl-matrix).
 - `shared/resources/`: models, shaders and textures the scene loads.
 
